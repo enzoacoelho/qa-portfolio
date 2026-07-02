@@ -1,24 +1,10 @@
 # Portfólio de Engenharia de Qualidade
 
-[![CI](https://img.shields.io/badge/CI-GitHub_Actions-blue?logo=githubactions&logoColor=white)](https://github.com/seu-usuario)
 [![Cypress](https://img.shields.io/badge/Cypress-E2E-04C38E?logo=cypress&logoColor=white)](https://github.com/seu-usuario)
 [![Playwright](https://img.shields.io/badge/Playwright-E2E-2EAD33?logo=playwright&logoColor=white)](https://github.com/seu-usuario)
 [![k6](https://img.shields.io/badge/k6-Performance-7D64FF?logo=k6&logoColor=white)](https://github.com/seu-usuario)
 [![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)](https://github.com/seu-usuario)
-[![Appium](https://img.shields.io/badge/Appium-Mobile-662D91?logo=appium&logoColor=white)](https://github.com/seu-usuario)
-[![Robot Framework](https://img.shields.io/badge/Robot_Framework-Automation-000000?logo=robotframework&logoColor=white)](https://github.com/seu-usuario)
-[![JMeter](https://img.shields.io/badge/JMeter-Performance-D22128?logo=apachejmeter&logoColor=white)](https://github.com/seu-usuario)
-[![JUnit](https://img.shields.io/badge/JUnit-Unit_Testing-25A162?logo=junit5&logoColor=white)](https://github.com/seu-usuario)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](https://github.com/seu-usuario)
-[![Jest](https://img.shields.io/badge/Jest-Unit_Testing-C21325?logo=jest&logoColor=white)](https://github.com/seu-usuario)
-[![Java](https://img.shields.io/badge/Java-Backend-007396?logo=openjdk&logoColor=white)](https://github.com/seu-usuario)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?logo=githubactions&logoColor=white)](https://github.com/seu-usuario)
-[![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-D24939?logo=jenkins&logoColor=white)](https://github.com/seu-usuario)
-[![Docker Compose](https://img.shields.io/badge/Docker_Compose-Orchestration-2496ED?logo=docker&logoColor=white)](https://github.com/seu-usuario)
-[![k6](https://img.shields.io/badge/k6-Load_Testing-7D64FF?logo=k6&logoColor=white)](https://github.com/seu-usuario)
-[![WebdriverIO](https://img.shields.io/badge/WebdriverIO-Mobile-EA5906?logo=webdriverio&logoColor=white)](https://github.com/seu-usuario)
-
-
+[![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/seu-usuario)
 
 Este repositório reúne meus projetos práticos em Engenharia de Qualidade de Software, organizados para apresentar minha evolução no aprendizado de testes, automação, DevOps e qualidade de forma clara e objetiva.
 
