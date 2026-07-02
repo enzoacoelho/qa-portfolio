@@ -10,6 +10,13 @@
 [![JMeter](https://img.shields.io/badge/JMeter-Performance-D22128?logo=apachejmeter&logoColor=white)](https://github.com/seu-usuario)
 [![JUnit](https://img.shields.io/badge/JUnit-Unit_Testing-25A162?logo=junit5&logoColor=white)](https://github.com/seu-usuario)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](https://github.com/seu-usuario)
+[![Jest](https://img.shields.io/badge/Jest-Unit_Testing-C21325?logo=jest&logoColor=white)](https://github.com/seu-usuario)
+[![Java](https://img.shields.io/badge/Java-Backend-007396?logo=openjdk&logoColor=white)](https://github.com/seu-usuario)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?logo=githubactions&logoColor=white)](https://github.com/seu-usuario)
+[![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-D24939?logo=jenkins&logoColor=white)](https://github.com/seu-usuario)
+[![Docker Compose](https://img.shields.io/badge/Docker_Compose-Orchestration-2496ED?logo=docker&logoColor=white)](https://github.com/seu-usuario)
+[![k6](https://img.shields.io/badge/k6-Load_Testing-7D64FF?logo=k6&logoColor=white)](https://github.com/seu-usuario)
+[![WebdriverIO](https://img.shields.io/badge/WebdriverIO-Mobile-EA5906?logo=webdriverio&logoColor=white)](https://github.com/seu-usuario)
 
 
 
