@@ -7,7 +7,6 @@
 [![k6](https://img.shields.io/badge/k6-Performance-7D64FF?logo=k6&logoColor=white)](https://github.com/seu-usuario)
 [![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)](https://github.com/seu-usuario)
 [![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/seu-usuario)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](https://github.com/seu-usuario)
 
 Este repositório reúne meus projetos práticos em Engenharia de Qualidade de Software, organizados para apresentar minha evolução no aprendizado de testes, automação, DevOps e qualidade de forma clara e objetiva.
 
