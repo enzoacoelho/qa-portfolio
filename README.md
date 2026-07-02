@@ -21,15 +21,12 @@ Aqui estão concentrados trabalhos que envolvem testes manuais, automação web,
 
 Mais do que listar ferramentas, este portfólio busca mostrar como eu penso em qualidade.
 
-## Destaques — comece por aqui
+## Destaques 
+Projetos que melhor representam minha forma de trabalhar e tomar decisões técnicas:
 
-Se você tem pouco tempo, estes três projetos resumem bem minha forma de trabalhar:
-
-- **[`cypress-rwa`](https://github.com/seu-usuario/cypress-rwa)** — Fork do Cypress Real World App migrado de Yarn para NPM, com ambiente configurado para rodar frontend e API localmente de forma integrada. Mostra capacidade de adaptar um projeto real a um novo setup.
-- **[`hub-de-leitura-cucumber-cypress`](https://github.com/seu-usuario/hub-de-leitura-cucumber-cypress)** — Testes E2E em BDD com Cucumber/Gherkin, ligando cenários de negócio à automação técnica.
-- **[`k6-tests`](https://github.com/seu-usuario/k6-tests)** — Scripts de performance com análise de métricas, indo além do "rodar o teste" até interpretar risco e gargalo.
-
-*(Ajuste esses três para os projetos dos quais você mais se orgulha ou que tiveram maior complexidade de decisão.)*
+- **[`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp)** — Testes E2E com Cypress no Cypress Real World App. Projeto adaptado e migrado de Yarn para NPM, com ambiente configurado para rodar frontend e API localmente de forma integrada. Mostra capacidade de adaptar um projeto real a um novo setup.
+- **[`pw-streaming`](https://github.com/enzoacoelho/pw-streaming)** — Testes E2E com Playwright em uma plataforma de streaming, cobrindo fluxos de navegação e interação de interface web.
+- **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — Testes de API ponta a ponta com Cypress no sistema Hub de Leitura (biblioteca), validando regras de negócio e cenários positivos e negativos.
 
 ## Estrutura do portfólio
 
