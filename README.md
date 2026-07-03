@@ -73,13 +73,9 @@ Abaixo estão os principais projetos que fazem parte deste portfólio. Cada proj
 *   [`ia-tests-analise`](https://github.com/enzoacoelho/ia-tests-analise) — Análise preditiva de métricas de qualidade com apoio de IA.
     *   *Tecnologias:* LLMs, Prompts estruturados para QA
 
-## Desafios práticos
-
-Além dos projetos completos, este portfólio também inclui desafios práticos voltados para o exercício de habilidades específicas. Os desafios têm como foco: raciocínio de testes, organização, tomada de decisão, aplicação de boas práticas, estratégia voltada para automação e testes baseados em risco. Cada desafio descreve claramente o problema, o objetivo e o entregável esperado.
-
 ## Boas práticas adotadas
 
-Ao longo dos projetos, busquei aplicar práticas como organização clara de pastas, uso adequado de `.gitignore`, READMEs detalhados explicando o contexto, código simples, legível, sustentável e focado em fácil manutenção.
+Os projetos foram estruturados com mapeamento de cenários baseado em riscos para guiar tanto os testes manuais quanto os automatizados. Na automação, apliquei Page Objects, comandos customizados e centralização de requisições para evitar duplicidade de código, gerenciando a massa com fixtures e Faker. Por fim, a execução foi integrada a relatórios Allure e ferramentas de performance para garantir visibilidade sobre os resultados.
 
 ## Considerações finais
 
