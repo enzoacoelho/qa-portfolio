@@ -97,8 +97,8 @@ Validações de regras de negócio, testes funcionais e de contrato diretamente 
 - Testes de API REST
 
 **Repositórios:**
-- [`hub-de-leitura-api-teste`](https://github.com/seu-usuario/hub-de-leitura-api-teste) — Validação de regras de negócio e cenários positivos/negativos da API do Hub de Leitura.
-- [`shortBeyond-playwright`](https://github.com/seu-usuario/shortBeyond-playwright) — Testes de contrato e cenários funcionais via Playwright.
+- [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Validação de regras de negócio e cenários positivos/negativos da API do Hub de Leitura.
+- [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Testes de contrato e cenários funcionais via Playwright.
 
 ### 5. UI Avançado
 
@@ -110,8 +110,8 @@ Cenários complexos de interface que exigem controle sobre o comportamento assí
 - Mocking HTTP (`cy.intercept`)
 
 **Repositórios:**
-- [`hub-de-leitura-cucumber-cypress`](https://github.com/seu-usuario/hub-de-leitura-cucumber-cypress) — BDD ligando cenários de negócio escritos em Gherkin à automação técnica.
-- [`cy-interception`](https://github.com/seu-usuario/cy-interception) — Mock de dados e controle de rede para simular cenários difíceis de reproduzir (erros de API, latência, respostas inesperadas).
+- [`cy-cucumber-hubleitura`](https://github.com/enzoacoelho/cy-cucumber-hubleitura) — BDD ligando cenários de negócio escritos em Gherkin à automação técnica.
+- [`cy-intercept-appactions`](https://github.com/enzoacoelho/cy-intercept-appactions) — Mock de dados e controle de rede para simular cenários difíceis de reproduzir (erros de API, latência, respostas inesperadas).
 
 ### 6. Automação Mobile
 
