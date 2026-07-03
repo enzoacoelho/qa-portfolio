@@ -38,46 +38,37 @@ Abaixo estão os principais projetos que fazem parte deste portfólio. Cada proj
 
 ### 2. Testes de Unidade
 *   [`jest-logic-challenges`](https://github.com/enzoacoelho/jest-logic-challenges) — Exercícios de lógica em JS, focados em cobertura de casos-limite.
-*   [`jest-logic-users`](https://github.com/enzoacoelho/jest-logic-users) — Testes unitários aplicados a regras isoladas de negócio.
 *   [`junit-banksystem`](https://github.com/enzoacoelho/junit-banksystem) — Sistema bancário em Java com JUnit, validando regras críticas como saldo e transações.
     *   *Tecnologias:* JavaScript, Jest, Java, JUnit
 
-### 3. Automação Web (UI)
+### 3. Automação Web (UI e Práticas Avançadas)
 *   [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — E2E cobrindo autenticação, gerenciamento de conta, transações e notificações. Arquitetura em Page Objects, Components e Commands.
 *   [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E em plataforma de streaming com classes injetadas via `test.extend`, integração a banco PostgreSQL e chamadas de API.
-    *   *Tecnologias:* Cypress, Playwright, JavaScript, TypeScript, NPM
+*   [`cy-cucumber-hubleitura`](https://github.com/enzoacoelho/cy-cucumber-hubleitura) — Desenvolvimento guiado por comportamento (BDD) vinculando cenários escritos em Gherkin à automação técnica.
+    *   *Tecnologias:* Cypress, Playwright, Cucumber / Gherkin, JavaScript, NPM
 
-### 4. Automação de API
-*   [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Validação de regras de negócio e cenários positivos/negativos da API do Hub de Leitura.
-*   [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Testes de contrato e cenários funcionais via Playwright.
-    *   *Tecnologias:* Playwright, Cypress, Testes de API REST
-
-### 5. UI Avançado
-*   [`cy-cucumber-hubleitura`](https://github.com/enzoacoelho/cy-cucumber-hubleitura) — BDD ligando cenários de negócio escritos em Gherkin à automação técnica.
-*   [`cy-intercept-appactions`](https://github.com/enzoacoelho/cy-intercept-appactions) — Mock de dados e controle de rede para simular cenários complexos (erros de API, latência).
-    *   *Tecnologias:* Cypress, Cucumber / Gherkin, Mocking HTTP (`cy.intercept`)
-
-### 6. Automação Mobile
+### 4. Automação Mobile
 *   [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium e WebDriverIO.
 *   [`udemy-appium`](https://github.com/enzoacoelho/udemy-appium) — Automação mobile estruturada com Robot Framework.
     *   *Tecnologias:* Appium, WebDriverIO, Robot Framework
 
-### 7. Testes de Performance
+### 5. Automação de API
+*   [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Validação de regras de negócio e cenários positivos/negativos da API do Hub de Leitura.
+*   [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Testes de contrato e cenários funcionais via Playwright.
+    *   *Tecnologias:* Playwright, Cypress, Testes de API REST
+
+### 6. Testes de Performance
 *   [`k6-tests`](https://github.com/enzoacoelho/k6-tests) — Scripts modernos de carga com análise de métricas (latência, taxa de erro, throughput).
 *   [`jmeter-blazedemo`](https://github.com/enzoacoelho/jmeter-blazedemo) — Plano de testes estruturado em JMeter sobre a aplicação BlazeDemo.
     *   *Tecnologias:* k6, Apache JMeter
 
-### 8. Containers (Docker)
-*   [`react-express`](https://github.com/enzoacoelho/react-express) — Containerização de aplicação React + API Express, isolando frontend e backend.
-*   [`cy-interception-docker`](https://github.com/enzoacoelho/cy-interception-docker) — Execução de testes Cypress em modo headless dentro de containers, garantindo ambiente reprodutível.
-    *   *Tecnologias:* Docker, Docker Compose
-
-### 9. CI/CD e Qualidade Contínua
+### 7. DevOps e Infraestrutura de Testes (CI/CD & Containers)
 *   [`gitactions-serverest`](https://github.com/enzoacoelho/gitactions-serverest) — Pipeline de testes automatizados com GitHub Actions sobre a API ServeRest.
 *   [`jenkins-hub-de-leitura`](https://github.com/enzoacoelho/jenkins-hub-de-leitura) — Pipeline Jenkins integrando testes automatizados do projeto Hub de Leitura.
-    *   *Tecnologias:* GitHub Actions, Jenkins
+*   [`cy-interception-docker`](https://github.com/enzoacoelho/cy-interception-docker) — Execução de testes Cypress em modo headless dentro de containers Docker, garantindo ambiente reprodutível.
+    *   *Tecnologias:* GitHub Actions, Jenkins, Docker, Docker Compose
 
-### 10. Engenharia de Inteligência Artificial
+### 8. Engenharia de Inteligência Artificial
 *   [`ia-tests`](https://github.com/enzoacoelho/ia-tests) — Engenharia de prompts para geração de cenários de teste.
 *   [`ia-tests-analise`](https://github.com/enzoacoelho/ia-tests-analise) — Análise preditiva de métricas de qualidade com apoio de IA.
     *   *Tecnologias:* LLMs, Prompts estruturados para QA
