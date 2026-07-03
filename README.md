@@ -79,4 +79,6 @@ Os projetos foram estruturados com mapeamento de cenários baseado em riscos par
 
 ## Considerações finais
 
-Essa jornada começou nos testes manuais, priorizando cenários por risco, e foi crescendo em direção à automação web, API, mobile, performance e integração contínua. O maior desafio técnico até aqui foi migrar e adaptar projetos existentes (como o `cypress-rwa`) para um novo ambiente sem perder cobertura de testes — isso me ensinou a olhar para automação não só como "escrever testes", mas como manter um sistema de qualidade sustentável ao longo do tempo.
+Este portfólio consolida minha evolução dos testes manuais por risco para a automação de ponta a ponta. O maior desafio foi dominar a infraestrutura de containers e pipelines de CI/CD, o que me ensinou que qualidade sustentável exige ambientes reprodutíveis, código limpo e massa de dados inteligente.
+
+Concluo esse ciclo sabendo que a automação deve acelerar entregas com segurança. Agradeço aos mentores e comunidades pelo apoio nessa jornada, e deixo os repositórios abertos para feedbacks e conexões.
