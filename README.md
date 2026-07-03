@@ -53,11 +53,10 @@ Abaixo estão os principais projetos que fazem parte deste portfólio. Cada proj
 
 ### 1. Testes Manuais e Estratégias
 
-Projeto voltado à base analítica de QA, cobrindo cenários baseados em risco e documentação ágil.
+QA manual sobre uma aplicação Todo List (criação, edição, conclusão de tarefas, filtros e contador de itens ativos), com testes funcionais, exploratórios e de edge case gerenciados no Jira/Zephyr Scale — incluindo bugs reais como o contador de itens ativos calculando errado e a possibilidade de criar tarefas vazias colando espaços em branco.
 
-**Foco:** priorização de casos de teste por risco, escrita de cenários claros e reportes de bug estruturados o suficiente para agilizar o retrabalho do time de desenvolvimento.
-
-**Repositório:** [`qa-manual-agile-travel`](https://github.com/seu-usuario/qa-manual-agile-travel)
+**Tecnologias:** Jira Cloud, Zephyr Scale
+**Repositório:** [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list)
 
 ### 2. Testes de Unidade
 
@@ -70,9 +69,9 @@ Exemplos de testes aplicados a funções e regras de negócio isoladas, com foco
 - JUnit
 
 **Repositórios:**
-- [`jest-logic-challenges`](https://github.com/seu-usuario/jest-logic-challenges) — Exercícios de lógica em JS, focados em cobertura de casos-limite.
-- [`teste-de-unidade-jest`](https://github.com/seu-usuario/teste-de-unidade-jest) — Testes unitários aplicados a regras isoladas de negócio.
-- [`junit-sistema-bancario`](https://github.com/seu-usuario/junit-sistema-bancario) — Sistema bancário em Java com JUnit, validando regras críticas como saldo e transações.
+- [`jest-logic-challenges`](https://github.com/enzoacoelho/jest-logic-challenges) — Exercícios de lógica em JS, focados em cobertura de casos-limite.
+- [`jest-logic-users`](https://github.com/enzoacoelho/jest-logic-users) — Testes unitários aplicados a regras isoladas de negócio.
+- [`junit-banksystem`](https://github.com/enzoacoelho/junit-banksystem) — Sistema bancário em Java com JUnit, validando regras críticas como saldo e transações.
 
 ### 3. Automação Web (UI)
 
@@ -85,8 +84,8 @@ Testes end-to-end (E2E) simulando a jornada real do usuário em aplicações web
 - NPM
 
 **Repositórios:**
-- [`cypress-rwa`](https://github.com/seu-usuario/cypress-rwa) — Fork do Cypress Real World App. Projeto adaptado e migrado de Yarn para NPM, configurado para execução local integrada com o frontend rodando na porta 3000 e a API Backend na porta 3001.
-- [`pw-streaming`](https://github.com/seu-usuario/pw-streaming) — Automação E2E de uma plataforma de streaming utilizando Playwright, cobrindo fluxos de navegação e reprodução de conteúdo.
+- [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — E2E cobrindo autenticação, gerenciamento de conta, transações de pagamento/cobrança, feed com filtros e notificações. Arquitetura em Page Objects, com Components para elementos reutilizados entre abas e Commands para ações genéricas.
+- [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E numa plataforma de streaming (login, leads, catálogo de filmes e séries). Classes de ação injetadas via `test.extend`, com integração direta a banco PostgreSQL e chamadas de API para setup de cenários.
 
 ### 4. Automação de API
 
