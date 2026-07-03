@@ -35,43 +35,38 @@ Abaixo estão os principais projetos que fazem parte deste portfólio. Cada proj
 ### 1. Testes Manuais e Estratégias
 *   [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list) — QA manual sobre uma aplicação Todo List com testes funcionais, exploratórios e de edge case gerenciados no Jira/Zephyr Scale (incluindo mapeamento de bugs reais de lógica).
     *   *Tecnologias:* Jira Cloud, Zephyr Scale
-
-### 2. Testes de Unidade
-*   [`jest-logic-challenges`](https://github.com/enzoacoelho/jest-logic-challenges) — Exercícios de lógica em JS, focados em cobertura de casos-limite.
-*   [`junit-banksystem`](https://github.com/enzoacoelho/junit-banksystem) — Sistema bancário em Java com JUnit, validando regras críticas como saldo e transações.
-    *   *Tecnologias:* JavaScript, Jest, Java, JUnit
-
-### 3. Automação Web (UI e Práticas Avançadas)
+ 
+### 2. Automação Web (UI e Práticas Avançadas)
 *   [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — E2E cobrindo autenticação, gerenciamento de conta, transações e notificações. Arquitetura em Page Objects, Components e Commands.
 *   [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E em plataforma de streaming com classes injetadas via `test.extend`, integração a banco PostgreSQL e chamadas de API.
 *   [`cy-cucumber-hubleitura`](https://github.com/enzoacoelho/cy-cucumber-hubleitura) — Desenvolvimento guiado por comportamento (BDD) vinculando cenários escritos em Gherkin à automação técnica.
     *   *Tecnologias:* Cypress, Playwright, Cucumber / Gherkin, JavaScript, NPM
-
-### 4. Automação Mobile
+ 
+### 3. Automação Mobile
 *   [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium e WebDriverIO.
 *   [`udemy-appium`](https://github.com/enzoacoelho/udemy-appium) — Automação mobile estruturada com Robot Framework.
     *   *Tecnologias:* Appium, WebDriverIO, Robot Framework
-
-### 5. Automação de API
+ 
+### 4. Automação de API
 *   [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Validação de regras de negócio e cenários positivos/negativos da API do Hub de Leitura.
 *   [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Testes de contrato e cenários funcionais via Playwright.
     *   *Tecnologias:* Playwright, Cypress, Testes de API REST
-
-### 6. Testes de Performance
+ 
+### 5. Testes de Performance
 *   [`k6-tests`](https://github.com/enzoacoelho/k6-tests) — Scripts modernos de carga com análise de métricas (latência, taxa de erro, throughput).
 *   [`jmeter-blazedemo`](https://github.com/enzoacoelho/jmeter-blazedemo) — Plano de testes estruturado em JMeter sobre a aplicação BlazeDemo.
     *   *Tecnologias:* k6, Apache JMeter
+
+### 6. Testes de Unidade
+*   [`jest-logic-challenges`](https://github.com/enzoacoelho/jest-logic-challenges) — Exercícios de lógica em JS, focados em cobertura de casos-limite.
+*   [`junit-banksystem`](https://github.com/enzoacoelho/junit-banksystem) — Sistema bancário em Java com JUnit, validando regras críticas como saldo e transações.
+    *   *Tecnologias:* JavaScript, Jest, Java, JUnit
 
 ### 7. DevOps e Infraestrutura de Testes (CI/CD & Containers)
 *   [`gitactions-serverest`](https://github.com/enzoacoelho/gitactions-serverest) — Pipeline de testes automatizados com GitHub Actions sobre a API ServeRest.
 *   [`jenkins-hub-de-leitura`](https://github.com/enzoacoelho/jenkins-hub-de-leitura) — Pipeline Jenkins integrando testes automatizados do projeto Hub de Leitura.
 *   [`cy-interception-docker`](https://github.com/enzoacoelho/cy-interception-docker) — Execução de testes Cypress em modo headless dentro de containers Docker, garantindo ambiente reprodutível.
     *   *Tecnologias:* GitHub Actions, Jenkins, Docker, Docker Compose
-
-### 8. Engenharia de Inteligência Artificial
-*   [`ia-tests`](https://github.com/enzoacoelho/ia-tests) — Engenharia de prompts para geração de cenários de teste.
-*   [`ia-tests-analise`](https://github.com/enzoacoelho/ia-tests-analise) — Análise preditiva de métricas de qualidade com apoio de IA.
-    *   *Tecnologias:* LLMs, Prompts estruturados para QA
 
 ## Boas práticas adotadas
 
