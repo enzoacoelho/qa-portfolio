@@ -8,9 +8,9 @@
 [![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)](https://github.com/seu-usuario)
 [![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/seu-usuario)
 
-Este repositório reúne meus projetos práticos em Engenharia de Qualidade de Software, organizados para apresentar minha evolução no aprendizado de testes, automação, DevOps e qualidade de forma clara e objetiva.
+Este repositório reúne meus projetos práticos em Engenharia de Qualidade de Software, organizados para apresentar minha evolução de forma clara e objetiva.
 
-Aqui estão concentrados trabalhos que envolvem testes manuais, automação web, mobile, testes de API, testes de unidade, performance, containers, integração contínua e uso de IA aplicada à qualidade — sempre baseados em cenários próximos à realidade de aplicações de mercado.
+Aqui estão concentrados trabalhos que envolvem testes manuais, automação web e mobile, APIs, unidade, performance, containers, integração contínua e uso de IA aplicada à qualidade — sempre baseados em cenários próximos à realidade de aplicações de mercado.
 
 ## Objetivo do portfólio
 
