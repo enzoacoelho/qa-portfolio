@@ -28,181 +28,68 @@ Projetos que melhor representam minha forma de trabalhar e tomar decisões técn
 - **[`pw-streaming`](https://github.com/enzoacoelho/pw-streaming)** — E2E com Playwright numa plataforma de streaming (login, leads, catálogo de filmes e séries). Classes de ação injetadas via `test.extend`, com integração direta a banco PostgreSQL e chamadas de API para setup de cenários.
 - **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — API ponta a ponta de um sistema de biblioteca, com permissões diferenciadas (usuário comum/admin), requests organizados por endpoint e pipeline de CI no GitHub Actions publicando relatório Allure.
 
-## Estrutura do portfólio
-
-```
-├── Projetos
-│   ├── Testes Manuais e Estratégias
-│   ├── Testes de Unidade
-│   ├── Automação Web (UI)
-│   ├── Automação de API
-│   ├── UI Avançado
-│   ├── Automação Mobile
-│   ├── Testes de Performance
-│   ├── Containers (Docker)
-│   ├── CI/CD e Qualidade Contínua
-│   └── Engenharia de Inteligência Artificial
-├── Desafios práticos
-├── Boas práticas adotadas
-└── Considerações finais
-```
-
 ## Projetos
 
 Abaixo estão os principais projetos que fazem parte deste portfólio. Cada projeto possui seu próprio repositório e um README com a explicação do contexto, objetivo, estratégia de testes e instruções de execução.
 
 ### 1. Testes Manuais e Estratégias
-
-QA manual sobre uma aplicação Todo List (criação, edição, conclusão de tarefas, filtros e contador de itens ativos), com testes funcionais, exploratórios e de edge case gerenciados no Jira/Zephyr Scale — incluindo bugs reais como o contador de itens ativos calculando errado e a possibilidade de criar tarefas vazias colando espaços em branco.
-
-**Tecnologias:** Jira Cloud, Zephyr Scale
-**Repositório:** [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list)
+*   [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list) — QA manual sobre uma aplicação Todo List com testes funcionais, exploratórios e de edge case gerenciados no Jira/Zephyr Scale (incluindo mapeamento de bugs reais de lógica).
+    *   *Tecnologias:* Jira Cloud, Zephyr Scale
 
 ### 2. Testes de Unidade
-
-Exemplos de testes aplicados a funções e regras de negócio isoladas, com foco em confiabilidade e manutenção do código.
-
-**Tecnologias utilizadas:**
-- JavaScript
-- Jest
-- Java
-- JUnit
-
-**Repositórios:**
-- [`jest-logic-challenges`](https://github.com/enzoacoelho/jest-logic-challenges) — Exercícios de lógica em JS, focados em cobertura de casos-limite.
-- [`jest-logic-users`](https://github.com/enzoacoelho/jest-logic-users) — Testes unitários aplicados a regras isoladas de negócio.
-- [`junit-banksystem`](https://github.com/enzoacoelho/junit-banksystem) — Sistema bancário em Java com JUnit, validando regras críticas como saldo e transações.
+*   [`jest-logic-challenges`](https://github.com/enzoacoelho/jest-logic-challenges) — Exercícios de lógica em JS, focados em cobertura de casos-limite.
+*   [`jest-logic-users`](https://github.com/enzoacoelho/jest-logic-users) — Testes unitários aplicados a regras isoladas de negócio.
+*   [`junit-banksystem`](https://github.com/enzoacoelho/junit-banksystem) — Sistema bancário em Java com JUnit, validando regras críticas como saldo e transações.
+    *   *Tecnologias:* JavaScript, Jest, Java, JUnit
 
 ### 3. Automação Web (UI)
-
-Testes end-to-end (E2E) simulando a jornada real do usuário em aplicações web.
-
-**Tecnologias utilizadas:**
-- Cypress
-- Playwright
-- JavaScript / TypeScript
-- NPM
-
-**Repositórios:**
-- [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — E2E cobrindo autenticação, gerenciamento de conta, transações de pagamento/cobrança, feed com filtros e notificações. Arquitetura em Page Objects, com Components para elementos reutilizados entre abas e Commands para ações genéricas.
-- [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E numa plataforma de streaming (login, leads, catálogo de filmes e séries). Classes de ação injetadas via `test.extend`, com integração direta a banco PostgreSQL e chamadas de API para setup de cenários.
+*   [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — E2E cobrindo autenticação, gerenciamento de conta, transações e notificações. Arquitetura em Page Objects, Components e Commands.
+*   [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E em plataforma de streaming com classes injetadas via `test.extend`, integração a banco PostgreSQL e chamadas de API.
+    *   *Tecnologias:* Cypress, Playwright, JavaScript, TypeScript, NPM
 
 ### 4. Automação de API
-
-Validações de regras de negócio, testes funcionais e de contrato diretamente na camada de serviços.
-
-**Tecnologias utilizadas:**
-- Playwright
-- Cypress
-- Testes de API REST
-
-**Repositórios:**
-- [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Validação de regras de negócio e cenários positivos/negativos da API do Hub de Leitura.
-- [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Testes de contrato e cenários funcionais via Playwright.
+*   [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Validação de regras de negócio e cenários positivos/negativos da API do Hub de Leitura.
+*   [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Testes de contrato e cenários funcionais via Playwright.
+    *   *Tecnologias:* Playwright, Cypress, Testes de API REST
 
 ### 5. UI Avançado
-
-Cenários complexos de interface que exigem controle sobre o comportamento assíncrono e regras de negócio guiadas por comportamento.
-
-**Tecnologias utilizadas:**
-- Cypress
-- Cucumber / Gherkin
-- Mocking HTTP (`cy.intercept`)
-
-**Repositórios:**
-- [`cy-cucumber-hubleitura`](https://github.com/enzoacoelho/cy-cucumber-hubleitura) — BDD ligando cenários de negócio escritos em Gherkin à automação técnica.
-- [`cy-intercept-appactions`](https://github.com/enzoacoelho/cy-intercept-appactions) — Mock de dados e controle de rede para simular cenários difíceis de reproduzir (erros de API, latência, respostas inesperadas).
+*   [`cy-cucumber-hubleitura`](https://github.com/enzoacoelho/cy-cucumber-hubleitura) — BDD ligando cenários de negócio escritos em Gherkin à automação técnica.
+*   [`cy-intercept-appactions`](https://github.com/enzoacoelho/cy-intercept-appactions) — Mock de dados e controle de rede para simular cenários complexos (erros de API, latência).
+    *   *Tecnologias:* Cypress, Cucumber / Gherkin, Mocking HTTP (`cy.intercept`)
 
 ### 6. Automação Mobile
-
-Testes em aplicações nativas e híbridas para dispositivos móveis.
-
-**Tecnologias utilizadas:**
-- Appium
-- WebDriverIO
-- Robot Framework
-
-**Repositórios:**
-- [`appium-wdio`](https://github.com/seu-usuario/appium-wdio) — Automação Android com Appium e WebDriverIO.
-- [`udemy-appium`](https://github.com/seu-usuario/udemy-appium) — Automação mobile estruturada com Robot Framework.
+*   [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium e WebDriverIO.
+*   [`udemy-appium`](https://github.com/enzoacoelho/udemy-appium) — Automação mobile estruturada com Robot Framework.
+    *   *Tecnologias:* Appium, WebDriverIO, Robot Framework
 
 ### 7. Testes de Performance
-
-Avaliação de riscos, comportamento sob carga, estresse e mapeamento de gargalos.
-
-**Tecnologias utilizadas:**
-- k6
-- Apache JMeter
-
-**Repositórios:**
-- [`k6-tests`](https://github.com/seu-usuario/k6-tests) — Scripts modernos de carga com análise de métricas (latência, taxa de erro, throughput).
-- [`jmeter-blazedemo`](https://github.com/seu-usuario/jmeter-blazedemo) — Plano de testes estruturado em JMeter sobre a aplicação BlazeDemo.
+*   [`k6-tests`](https://github.com/enzoacoelho/k6-tests) — Scripts modernos de carga com análise de métricas (latência, taxa de erro, throughput).
+*   [`jmeter-blazedemo`](https://github.com/enzoacoelho/jmeter-blazedemo) — Plano de testes estruturado em JMeter sobre a aplicação BlazeDemo.
+    *   *Tecnologias:* k6, Apache JMeter
 
 ### 8. Containers (Docker)
-
-Criação e isolamento de ambientes para garantir a reprodutibilidade dos testes.
-
-**Tecnologias utilizadas:**
-- Docker
-- Docker Compose
-
-**Repositórios:**
-- [`react-express`](https://github.com/seu-usuario/react-express) — Containerização de aplicação React + API Express, isolando frontend e backend.
-- [`cy-interception-docker`](https://github.com/seu-usuario/cy-interception-docker) — Execução de testes Cypress em modo headless dentro de containers, garantindo ambiente reprodutível.
+*   [`react-express`](https://github.com/enzoacoelho/react-express) — Containerização de aplicação React + API Express, isolando frontend e backend.
+*   [`cy-interception-docker`](https://github.com/enzoacoelho/cy-interception-docker) — Execução de testes Cypress em modo headless dentro de containers, garantindo ambiente reprodutível.
+    *   *Tecnologias:* Docker, Docker Compose
 
 ### 9. CI/CD e Qualidade Contínua
-
-Integração de testes automatizados em esteiras de deploy, aplicando o conceito de Shift-Left Testing ao longo do fluxo de entrega.
-
-**Tecnologias utilizadas:**
-- GitHub Actions
-- Jenkins
-
-**Repositórios:**
-- [`gitactions-serverest`](https://github.com/seu-usuario/gitactions-serverest) — Pipeline de testes automatizados com GitHub Actions sobre a API ServeRest.
-- [`jenkins-hub-de-leitura`](https://github.com/seu-usuario/jenkins-hub-de-leitura) — Pipeline Jenkins integrando testes automatizados do projeto Hub de Leitura.
+*   [`gitactions-serverest`](https://github.com/enzoacoelho/gitactions-serverest) — Pipeline de testes automatizados com GitHub Actions sobre a API ServeRest.
+*   [`jenkins-hub-de-leitura`](https://github.com/enzoacoelho/jenkins-hub-de-leitura) — Pipeline Jenkins integrando testes automatizados do projeto Hub de Leitura.
+    *   *Tecnologias:* GitHub Actions, Jenkins
 
 ### 10. Engenharia de Inteligência Artificial
-
-Exploração de inteligências artificiais generativas para acelerar e garantir eficiência na escrita de testes.
-
-**Tecnologias utilizadas:**
-- LLMs
-- Prompts estruturados para QA
-
-**Repositórios:**
-- [`ia-tests`](https://github.com/seu-usuario/ia-tests) — Engenharia de prompts para geração de cenários de teste.
-- [`ia-tests-analise`](https://github.com/seu-usuario/ia-tests-analise) — Análise preditiva de métricas de qualidade com apoio de IA.
+*   [`ia-tests`](https://github.com/enzoacoelho/ia-tests) — Engenharia de prompts para geração de cenários de teste.
+*   [`ia-tests-analise`](https://github.com/enzoacoelho/ia-tests-analise) — Análise preditiva de métricas de qualidade com apoio de IA.
+    *   *Tecnologias:* LLMs, Prompts estruturados para QA
 
 ## Desafios práticos
 
-Além dos projetos completos, este portfólio também inclui desafios práticos voltados para o exercício de habilidades específicas.
-
-Os desafios têm como foco:
-
-- raciocínio de testes
-- organização
-- tomada de decisão
-- aplicação de boas práticas
-- estratégia de testes voltada para automação
-- testes baseados em risco
-
-Cada desafio descreve claramente o problema, o objetivo e o entregável esperado.
+Além dos projetos completos, este portfólio também inclui desafios práticos voltados para o exercício de habilidades específicas. Os desafios têm como foco: raciocínio de testes, organização, tomada de decisão, aplicação de boas práticas, estratégia voltada para automação e testes baseados em risco. Cada desafio descreve claramente o problema, o objetivo e o entregável esperado.
 
 ## Boas práticas adotadas
 
-Ao longo dos projetos, busquei aplicar práticas como:
-
-- organização clara de pastas e arquivos
-- uso adequado de `.gitignore`
-- READMEs explicando contexto e objetivo
-- código simples, legível e sustentável
-- foco em manutenção e clareza
+Ao longo dos projetos, busquei aplicar práticas como organização clara de pastas, uso adequado de `.gitignore`, READMEs detalhados explicando o contexto, código simples, legível, sustentável e focado em fácil manutenção.
 
 ## Considerações finais
 
 Essa jornada começou nos testes manuais, priorizando cenários por risco, e foi crescendo em direção à automação web, API, mobile, performance e integração contínua. O maior desafio técnico até aqui foi migrar e adaptar projetos existentes (como o `cypress-rwa`) para um novo ambiente sem perder cobertura de testes — isso me ensinou a olhar para automação não só como "escrever testes", mas como manter um sistema de qualidade sustentável ao longo do tempo.
-
-Os próximos passos que pretendo explorar: testes de contrato mais aprofundados, observabilidade aplicada à qualidade, e ampliar o uso de IA generativa para análise preditiva de falhas em pipelines de CI/CD.
-
-Se quiser conversar sobre qualquer um desses projetos ou sobre minha forma de pensar em qualidade, fique à vontade para entrar em contato.
