@@ -33,7 +33,7 @@ Projetos que melhor representam minha forma de trabalhar e tomar decisões técn
 
 ## Demais projetos de prática
 
-Projetos complementares aos destaques, escolhidos para demonstrar domínio das principais ferramentas exigidas hoje no mercado — não repetição de conteúdo, e sim a mesma competência aplicada com stacks diferentes.
+Projetos complementares aos destaques, desenvolvidos ao longo dos meus estudos, organizados por categoria.
 
 ### 1. Testes Manuais e Estratégias
 *   [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list) — QA manual sobre uma aplicação Todo List com testes funcionais, exploratórios e de edge case gerenciados no Jira/Zephyr Scale, incluindo mapeamento de bugs reais de lógica *(ex: [descreva aqui um bug específico que você encontrou])*.
