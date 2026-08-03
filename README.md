@@ -1,16 +1,17 @@
 # Portfólio de Engenharia de Qualidade
 
-[![Cypress](https://img.shields.io/badge/Cypress-E2E-04C38E?logo=cypress&logoColor=white)](https://github.com/seu-usuario)
-[![Playwright](https://img.shields.io/badge/Playwright-E2E-2EAD33?logo=playwright&logoColor=white)](https://github.com/seu-usuario)
-[![Appium](https://img.shields.io/badge/Appium-Mobile-662D91?logo=appium&logoColor=white)](https://github.com/seu-usuario)
-[![Robot Framework](https://img.shields.io/badge/Robot_Framework-Automation-000000?logo=robotframework&logoColor=white)](https://github.com/seu-usuario)
-[![k6](https://img.shields.io/badge/k6-Performance-7D64FF?logo=k6&logoColor=white)](https://github.com/seu-usuario)
-[![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)](https://github.com/seu-usuario)
-[![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/seu-usuario)
+[![Cypress](https://img.shields.io/badge/Cypress-E2E-04C38E?logo=cypress&logoColor=white)]
+[![Playwright](https://img.shields.io/badge/Playwright-E2E-2EAD33?logo=playwright&logoColor=white)]
+[![Appium](https://img.shields.io/badge/Appium-Mobile-662D91?logo=appium&logoColor=white)]
+[![Robot Framework](https://img.shields.io/badge/Robot_Framework-Automation-000000?logo=robotframework&logoColor=white)]
+[![k6](https://img.shields.io/badge/k6-Performance-7D64FF?logo=k6&logoColor=white)]
+[![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)]
+[![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)]
 
-Este repositório reúne meus projetos práticos em Engenharia de Qualidade de Software, organizados para apresentar minha evolução de forma clara e objetiva.
+## Sobre Mim
+Fui desenvolvedor por 4 anos e atualmente estou em transição de carreira para Qualidade de Software. Essa bagagem técnica me ajuda a ler código de teste com mais profundidade, entender arquitetura de aplicações e conversar de igual para igual com times de desenvolvimento — algo que uso a favor da automação e não só da execução de testes.
 
-Aqui estão concentrados trabalhos que envolvem testes manuais, automação web e mobile, APIs, unidade, performance, containers e integração contínua, sempre baseados em cenários próximos à realidade de aplicações de mercado.
+Este repositório reúne meus projetos práticos em Engenharia de Qualidade, envolvendo testes manuais, automação web e mobile, APIs, testes de unidade, performance, containers e integração contínua, sempre baseados em cenários próximos à realidade de aplicações de mercado.
 
 ## Objetivo do portfólio
 
@@ -28,9 +29,11 @@ Projetos que melhor representam minha forma de trabalhar e tomar decisões técn
 - **[`pw-streaming`](https://github.com/enzoacoelho/pw-streaming)** — E2E com Playwright numa plataforma de streaming (login, leads, catálogo de filmes e séries). Classes de ação injetadas via `test.extend`, com integração direta a banco PostgreSQL e chamadas de API para setup de cenários.
 - **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — API ponta a ponta de um sistema de biblioteca, com permissões diferenciadas (usuário comum/admin), requests organizados por endpoint e pipeline de CI no GitHub Actions publicando relatório Allure.
 
-## Projetos
+´´Os READMEs individuais desses três projetos trazem contexto completo, estratégia de testes e evidências (prints, relatórios, bugs encontrados).´´
 
-Abaixo estão os principais projetos que fazem parte deste portfólio. Cada projeto possui seu próprio repositório e um README com a explicação do contexto, objetivo, estratégia de testes e instruções de execução.
+## Demais projetos de prática
+
+Repositórios complementares, desenvolvidos ao longo dos estudos para praticar ferramentas e conceitos específicos.
 
 ### 1. Testes Manuais e Estratégias
 *   [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list) — QA manual sobre uma aplicação Todo List com testes funcionais, exploratórios e de edge case gerenciados no Jira/Zephyr Scale (incluindo mapeamento de bugs reais de lógica).
@@ -71,9 +74,3 @@ Abaixo estão os principais projetos que fazem parte deste portfólio. Cada proj
 ## Boas práticas adotadas
 
 Os projetos foram estruturados com mapeamento de cenários baseado em riscos para guiar tanto os testes manuais quanto os automatizados. Na automação, apliquei Page Objects, comandos customizados e centralização de requisições para evitar duplicidade de código, gerenciando a massa com fixtures e Faker. Por fim, a execução foi integrada a relatórios Allure e ferramentas de performance para garantir visibilidade sobre os resultados.
-
-## Considerações finais
-
-Este portfólio consolida minha evolução dos testes manuais por risco para a automação de ponta a ponta. O maior desafio foi dominar a infraestrutura de containers e pipelines de CI/CD, o que me ensinou que qualidade sustentável exige ambientes reprodutíveis, código limpo e massa de dados inteligente.
-
-Concluo esse ciclo sabendo que a automação deve acelerar entregas com segurança. Agradeço aos mentores e comunidades pelo apoio nessa jornada, e deixo os repositórios abertos para feedbacks e conexões.
