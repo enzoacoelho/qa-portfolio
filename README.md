@@ -31,9 +31,9 @@ Projetos que melhor representam minha forma de trabalhar e tomar decisões técn
 
 > Os READMEs individuais desses três projetos trazem contexto completo, estratégia de testes e evidências (prints, relatórios, bugs encontrados).
 
-## Demais projetos de prática
+## Projetos
 
-Projetos complementares aos destaques, desenvolvidos ao longo dos meus estudos, organizados por categoria.
+Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 > Cada projeto aqui listado contem seus proprios READMEs individuais contendo contexto completo, estratégia e evidências.
 
 ### 1. Testes Manuais e Estratégias
