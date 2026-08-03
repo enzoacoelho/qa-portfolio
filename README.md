@@ -10,7 +10,7 @@
 
 ## Sobre mim
 
-Fui desenvolvedor por 4 anos e atualmente estou em transição de carreira para Qualidade de Software. Essa bagagem técnica me ajuda a ler código de teste com mais profundidade, entender arquitetura de aplicações e conversar de igual para igual com times de desenvolvimento — algo que uso a favor da automação e não só da execução de testes.
+Depois de 4 anos como desenvolvedor, atualmente estou em transição de carreira para Qualidade de Software. Essa bagagem técnica me ajuda a ler código de teste com mais profundidade, entender arquitetura de aplicações e conversar de igual para igual com times de desenvolvimento — algo que uso a favor da automação e não só da execução de testes.
 
 Este repositório reúne meus projetos práticos em Engenharia de Qualidade, envolvendo testes manuais, automação web e mobile, APIs, performance, containers e integração contínua, sempre baseados em cenários próximos à realidade de aplicações de mercado.
 
