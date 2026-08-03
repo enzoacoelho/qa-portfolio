@@ -10,7 +10,7 @@
 
 Este repositório reúne meus projetos práticos em Engenharia de Qualidade de Software, organizados para apresentar minha evolução de forma clara e objetiva.
 
-Aqui estão concentrados trabalhos que envolvem testes manuais, automação web e mobile, APIs, unidade, performance, containers, integração contínua e uso de IA aplicada à qualidade — sempre baseados em cenários próximos à realidade de aplicações de mercado.
+Aqui estão concentrados trabalhos que envolvem testes manuais, automação web e mobile, APIs, unidade, performance, containers e integração contínua, sempre baseados em cenários próximos à realidade de aplicações de mercado.
 
 ## Objetivo do portfólio
 
