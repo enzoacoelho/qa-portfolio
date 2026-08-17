@@ -8,9 +8,13 @@
 [![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker&logoColor=white)](https://github.com/enzoacoelho)
 [![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/enzoacoelho)
 
+💡 Ex-desenvolvedor migrando pra Qualidade de Software.
+
 ## Sobre mim
 
-Em transição de desenvolvedor para QA, uso essa bagagem para ler código com profundidade e dialogar de igual para igual com times de dev. Aqui estão meus projetos práticos de testes manuais, automação e integração contínua.
+4 anos como desenvolvedor, hoje em transição pra QA — trago bagagem técnica pra além da execução de testes.
+
+Uso essa bagagem para ler código com profundidade e dialogar de igual para igual com times de dev. Aqui estão meus projetos práticos de testes manuais, automação e integração contínua.
 
 ## Objetivo do portfólio
 
