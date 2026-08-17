@@ -38,9 +38,9 @@ Uso essa bagagem para ler código com profundidade e dialogar de igual para igua
 
 Projetos que melhor representam como eu penso estratégia de teste, não só execução:
 
-- **[`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp)** — Numa aplicação de pagamentos entre usuários, o risco está concentrado em transações e autenticação. Separei a suíte em Page Objects, Components (elementos repetidos entre abas) e Commands (ações genéricas), pra evitar que uma mudança de UI quebrasse vários testes ao mesmo tempo.
-- **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — Sistema com permissões diferentes por perfil de usuário, então a estratégia priorizou cobrir regras de negócio e autorização, não só status code. CI no GitHub Actions publica relatório Allure a cada execução, pra dar visibilidade contínua sobre o estado da suíte.
-- **[`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond)** — Antes de automatizar, explorei a API manualmente com Bruno pra mapear o contrato de cada rota. Além dos testes funcionais, simulei um cenário de pico de tráfego com Artillery (carga estável → pico súbito → queda), pra observar como a API se comporta fora da condição ideal.
+- **[`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp)** — E2E com Cypress numa aplicação de pagamentos entre usuários (autenticação, transações, feed e notificações). Como o risco está concentrado em transações e login, separei a suíte em Page Objects, Components (elementos repetidos entre abas) e Commands (ações genéricas), pra uma mudança de UI não quebrar vários testes ao mesmo tempo.
+- **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — Testes de API com Cypress num sistema de biblioteca com permissões diferentes por perfil de usuário. A estratégia priorizou cobrir regras de negócio e autorização entre perfis, não só status code, com CI no GitHub Actions publicando relatório Allure a cada execução.
+- **[`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond)** — Testes de API com Playwright num encurtador de links. Antes de automatizar, explorei os endpoints manualmente com Bruno pra mapear o contrato de cada rota. Além dos testes funcionais, simulei um pico de tráfego com Artillery (carga estável → pico súbito → queda), pra observar o comportamento da API fora da condição ideal.
 
 > Os READMEs individuais desses três projetos trazem contexto completo, estratégia de testes e evidências.
 
