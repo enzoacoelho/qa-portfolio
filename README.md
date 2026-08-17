@@ -46,7 +46,7 @@ Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 
 ### 3. Automação Mobile
 *   [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com **Appium + WebDriverIO**.
-*   [`udemy-appium`](https://github.com/enzoacoelho/udemy-appium) — Automação mobile estruturada com **Robot Framework**.
+*   [`appium-robot-yodapp`](https://github.com/enzoacoelho/appium-robot-yodapp) — Automação mobile estruturada com **Robot Framework**.
     *   *Tecnologias:* Appium, WebDriverIO, Robot Framework
 
 ### 4. Automação de API
