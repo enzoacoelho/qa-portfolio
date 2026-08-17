@@ -52,16 +52,16 @@ Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 - [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list) — Testes funcionais, exploratórios e edge cases numa Todo List, gerenciados no Jira/Zephyr Scale.
 
 ### 2. Automação Web
-- [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) *(destaque acima)*
+- [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — App de pagamentos entre usuários *(destaque acima)*
 - [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E com Playwright numa plataforma de streaming (login, leads, catálogo), com integração a PostgreSQL.
 
 ### 3. Automação Mobile
-- [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium + WebDriverIO.
-- [`appium-robot-yodapp`](https://github.com/enzoacoelho/appium-robot-yodapp) — Automação mobile com Robot Framework.
+- [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium + WebDriverIO no app oficial de exemplo do WebdriverIO (puzzles/quiz).
+- [`appium-robot-yodapp`](https://github.com/enzoacoelho/appium-robot-yodapp) — Automação mobile com Robot Framework num app de gerenciamento de tarefas.
 
 ### 4. Automação de API
-- [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) *(destaque acima)*
-- [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) *(destaque acima)*
+- [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Sistema de biblioteca com permissões por perfil *(destaque acima)*
+- [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Encurtador de links, com testes de carga *(destaque acima)*
 
 ### 5. Testes de Performance
 - [`k6-tests`](https://github.com/enzoacoelho/k6-tests) — Scripts de carga com k6, com análise de latência, taxa de erro e throughput.
