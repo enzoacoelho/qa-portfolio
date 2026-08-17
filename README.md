@@ -23,46 +23,51 @@ Uso essa bagagem para ler código com profundidade e dialogar de igual para igua
 - Mostrar a aplicação de boas práticas de testes, automação e organização
 - Evidenciar minha capacidade de analisar contexto, definir estratégia e tomar decisões técnicas
 
+## Stack
+
+| Categoria | Ferramentas |
+|---|---|
+| Web (E2E) | Cypress, Playwright |
+| API | Cypress, Playwright |
+| Mobile | Appium, WebDriverIO, Robot Framework |
+| Performance | k6, Artillery |
+| CI/CD & Containers | GitHub Actions, Docker |
+| Gestão de testes manuais | Jira Cloud, Zephyr Scale |
+
 ## Destaques
 
-Projetos que melhor representam minha forma de trabalhar e tomar decisões técnicas:
+Projetos que melhor representam como eu penso estratégia de teste, não só execução:
 
-- **[`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp)** — E2E com Cypress numa aplicação de pagamentos entre usuários (autenticação, gerenciamento de conta, transações, feed e notificações). Arquitetura: Page Objects, Components para elementos reutilizados entre abas e Commands para ações genéricas.
-- **[`pw-streaming`](https://github.com/enzoacoelho/pw-streaming)** — E2E com Playwright numa plataforma de streaming (login, leads, catálogo de filmes e séries). Arquitetura: Page Objects organizados por funcionalidade, acessados via test.extend, com integração a banco PostgreSQL e chamadas de API para setup de cenários.
-- **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — API ponta a ponta com Cypress num sistema de biblioteca, com permissões diferenciadas por perfil (autenticação, cadastro e gerenciamento de usuários, catálogo de livros, carrinho e reservas). Arquitetura: requests organizados por endpoint, com pipeline de CI no GitHub Actions publicando relatório Allure.
+- **[`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp)** — Numa aplicação de pagamentos entre usuários, o risco está concentrado em transações e autenticação. Separei a suíte em Page Objects, Components (elementos repetidos entre abas) e Commands (ações genéricas), pra evitar que uma mudança de UI quebrasse vários testes ao mesmo tempo.
+- **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — Sistema com permissões diferentes por perfil de usuário, então a estratégia priorizou cobrir regras de negócio e autorização, não só status code. CI no GitHub Actions publica relatório Allure a cada execução, pra dar visibilidade contínua sobre o estado da suíte.
+- **[`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond)** — Antes de automatizar, explorei a API manualmente com Bruno pra mapear o contrato de cada rota. Além dos testes funcionais, simulei um cenário de pico de tráfego com Artillery (carga estável → pico súbito → queda), pra observar como a API se comporta fora da condição ideal.
 
-> Os READMEs individuais desses três projetos trazem contexto completo, estratégia de testes e evidências (prints, relatórios, bugs encontrados).
+> Os READMEs individuais desses três projetos trazem contexto completo, estratégia de testes e evidências.
 
 ## Projetos
 
 Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 
 ### 1. Testes Manuais e Estratégias
-*   [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list) — QA manual sobre uma aplicação Todo List com testes funcionais, exploratórios e de edge case gerenciados no Jira/Zephyr Scale, incluindo mapeamento de bugs reais de lógica.
-    *   *Tecnologias:* Jira Cloud, Zephyr Scale
+- [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list) — Testes funcionais, exploratórios e edge cases numa Todo List, gerenciados no Jira/Zephyr Scale.
 
 ### 2. Automação Web
-*   [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — E2E com **Cypress** cobrindo autenticação, gerenciamento de conta, transações e notificações. Arquitetura em Page Objects, Components e Commands.
-*   [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E com **Playwright** em plataforma de streaming, com classes injetadas via `test.extend`, integração a banco PostgreSQL e chamadas de API.
-    *   *Tecnologias:* Cypress, Playwright, JavaScript, NPM
+- [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) *(destaque acima)*
+- [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E com Playwright numa plataforma de streaming (login, leads, catálogo), com integração a PostgreSQL.
 
 ### 3. Automação Mobile
-*   [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com **Appium + WebDriverIO**.
-*   [`appium-robot-yodapp`](https://github.com/enzoacoelho/appium-robot-yodapp) — Automação mobile estruturada com **Robot Framework**.
-    *   *Tecnologias:* Appium, WebDriverIO, Robot Framework
+- [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium + WebDriverIO.
+- [`appium-robot-yodapp`](https://github.com/enzoacoelho/appium-robot-yodapp) — Automação mobile com Robot Framework.
 
 ### 4. Automação de API
-*   [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Validação de regras de negócio e cenários positivos/negativos com **Cypress** na API do Hub de Leitura.
-*   [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Testes de contrato e cenários funcionais com **Playwright**.
-    *   *Tecnologias:* Playwright, Cypress, Testes de API REST
+- [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) *(destaque acima)*
+- [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) *(destaque acima)*
 
 ### 5. Testes de Performance
-*   [`k6-tests`](https://github.com/enzoacoelho/k6-tests) — Scripts de carga com **k6**, com análise de métricas (latência, taxa de erro, throughput).
-    *   *Tecnologias:* k6
+- [`k6-tests`](https://github.com/enzoacoelho/k6-tests) — Scripts de carga com k6, com análise de latência, taxa de erro e throughput.
 
 ### 6. DevOps e Infraestrutura de Testes (CI/CD & Containers)
-*   [`cy-interception-docker`](https://github.com/enzoacoelho/cy-interception-docker) — Execução de testes Cypress em modo headless dentro de containers **Docker**, garantindo ambiente reprodutível.
-    *   *Tecnologias:* Docker, Docker Compose
+- [`cy-interception-docker`](https://github.com/enzoacoelho/cy-interception-docker) — Testes Cypress headless em containers Docker, garantindo ambiente reprodutível.
 
 ## Boas práticas adotadas
 
