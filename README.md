@@ -39,9 +39,13 @@ Uso essa bagagem para ler código com profundidade e dialogar de igual para igua
 
 Projetos que melhor representam como eu penso estratégia de teste, não só execução:
 
-- **[`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp)** — E2E com Cypress numa aplicação de pagamentos entre usuários (autenticação, transações, feed e notificações). Como o risco está concentrado em transações e login, separei a suíte em Page Objects, Components (elementos repetidos entre abas) e Commands (ações genéricas), pra uma mudança de UI não quebrar vários testes ao mesmo tempo.
-- **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — Testes de API com Cypress num sistema de biblioteca com permissões diferentes por perfil de usuário. A estratégia priorizou cobrir regras de negócio e autorização entre perfis, não só status code, com CI no GitHub Actions publicando relatório Allure a cada execução.
-- **[`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond)** — Testes de API com Playwright num encurtador de links. Antes de automatizar, explorei os endpoints manualmente com Bruno pra mapear o contrato de cada rota. Além dos testes funcionais, simulei um pico de tráfego com Artillery (carga estável → pico súbito → queda), pra observar o comportamento da API fora da condição ideal.
+## Destaques
+
+Projetos que melhor representam como eu penso estratégia de teste, não só execução:
+
+- **[`qa-manual-toolshop`](https://github.com/enzoacoelho/qa-manual-toolshop)** — Testes manuais, funcionais e exploratórios em um e-commerce de ferramentas. Antes de iniciar as execuções, estruturei a suíte focando em análise de risco e cenários de borda no fluxo de compras e checkout, organizando matriz de rastreabilidade, ciclos de execução e relatórios de defeitos detalhados com evidências visuais.
+- **[`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp)** — E2E com Cypress numa aplicação WEB de pagamentos entre usuários (autenticação, transações, feed e notificações). Como o risco está concentrado em transações e login, separei a suíte em Page Objects, Components (elementos repetidos entre abas) e Commands (ações genéricas), pra uma mudança de UI não quebrar vários testes ao mesmo tempo.
+- **[`appium-robot-yodapp`](https://github.com/enzoacoelho/appium-robot-yodapp)** — Automação mobile com Robot Framework em um aplicativo de gerenciamento de tarefas. A estratégia focou em validar fluxos críticos de UI em ambiente mobile (Android), garantindo a estabilidade dos seletores e o comportamento correto dos elementos nativos e de tela.
 
 > Os READMEs individuais desses três projetos trazem contexto completo, estratégia de testes e evidências.
 
