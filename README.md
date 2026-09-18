@@ -50,7 +50,8 @@ Projetos que melhor representam como eu penso estratégia de teste, não só exe
 Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 
 ### 1. Testes Manuais e Estratégias
-- [`qa-manual-todo-list`](https://github.com/enzoacoelho/qa-manual-todo-list) — Testes funcionais, exploratórios e edge cases numa Todo List, gerenciados no Jira/Zephyr Scale.
+- [`qa-manual-toolshop`](https://github.com/enzoacoelho/qa-manual-toolshop) — Suíte de testes manuais, funcionais, exploratórios e cenários de borda (edge cases) para a aplicação web "Practice Software Testing - Tool Shop", estruturada com matriz de rastreabilidade, ciclos de execução e relatórios de defeitos (bugs).
+- [`qa-manual-agileway-travel`](https://github.com/enzoacoelho/qa-manual-agileway-travel) — Suíte de testes manuais, funcionais, exploratórios e cenários de borda (edge cases) para o ecossistema de reservas de viagens da AgileWay, gerenciada com planejamento de ciclos e reporte estruturado de falhas.
 
 ### 2. Automação Web
 - [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — App de pagamentos entre usuários *(destaque acima)*
