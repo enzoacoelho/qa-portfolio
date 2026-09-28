@@ -39,7 +39,7 @@ Uso essa bagagem para ler código com profundidade e dialogar de igual para igua
 
 Projetos que melhor representam como eu penso estratégia de teste, não só execução:
 
-- **[`qa-manual-toolshop`](https://github.com/enzoacoelho/qa-manual-toolshop)** — Testes manuais e exploratórios em um e-commerce de ferramentas. Foquei em análise de risco e cenários de borda no checkout, mapeando matriz de rastreabilidade, ciclos e relatórios de bugs com evidências visuais.
+- **[`qa-manual-toolshop`](https://github.com/enzoacoelho/qa-manual-toolshop)** — Testes manuais e exploratórios em um e-commerce de ferramentas. Foquei em análise de risco e cenários de borda no checkout, mapeando matriz de rastreabilidade, ciclos e relatórios de bugs com evidências visuais. (Jira e Zephyr)
 - **[`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp)** — Automação E2E (Cypress) de pagamentos entre usuários. Estruturei a arquitetura separando Page Objects, Components e Commands para que alterações na interface não quebrem a suíte de testes.
 - **[`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — Automação de API (Cypress) em um sistema de biblioteca. Foco total em regras de negócio e validação de permissões por perfil (autorização), com relatórios Allure integrados via CI/CD no GitHub Actions.
 
