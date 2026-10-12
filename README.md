@@ -41,7 +41,7 @@ Projetos que melhor representam como eu penso estratégia de teste, não só exe
 
 - **[`Teste Manual - (Tool Shop)`](https://github.com/enzoacoelho/qa-manual-toolshop)** — Testes manuais e exploratórios em um e-commerce de ferramentas. Foquei em análise de risco e cenários de borda no checkout, mapeando matriz de rastreabilidade, ciclos e relatórios de bugs com evidências visuais. (Jira e Zephyr)
 - **[`Testes de API Automatizados - Hub de Leitura (Cypress)`](https://github.com/enzoacoelho/cy-api-hub-de-leitura)** — Automação de API (Cypress) em um sistema de biblioteca. Foco total em regras de negócio e validação de permissões por perfil (autorização), com relatórios Allure integrados via CI/CD no GitHub Actions.
-- - **[`Testes Web Automatizados E2E - Streaming (Playwright)`](https://github.com/enzoacoelho/pw-streaming.git)** — Automação de testes E2E com Playwright e JavaScript em aplicação web de streaming, com testes funcionais dos fluxos de login, leads e catálogo e cenários de teste automatizados.
+- **[`Testes Web Automatizados E2E - Streaming (Playwright)`](https://github.com/enzoacoelho/pw-streaming.git)** — Automação de testes E2E com Playwright e JavaScript em aplicação web de streaming, com testes funcionais dos fluxos de login, leads e catálogo e cenários de teste automatizados.
 
 > Os READMEs individuais desses três projetos trazem contexto completo, estratégia de testes e evidências.
 
