@@ -1,9 +1,5 @@
 # Quality Engineering Portfolio
 
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](README.pt-BR.md)
-
-> 🌐 Read this in [Portuguese](README.pt-BR.md).
-
 [![Cypress](https://img.shields.io/badge/Cypress-E2E-04C38E?logo=cypress&logoColor=white)](https://github.com/enzoacoelho)
 [![Playwright](https://img.shields.io/badge/Playwright-E2E-2EAD33?logo=playwright&logoColor=white)](https://github.com/enzoacoelho)
 [![Appium](https://img.shields.io/badge/Appium-Mobile-662D91?logo=appium&logoColor=white)](https://github.com/enzoacoelho)
