@@ -66,8 +66,8 @@ Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 - [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Encurtador de links, com testes de carga *(destaque acima)*
 
 ### 5. Testes Unitários (Jest)
-- [`jest-viacep`](https://github.com/enzoacoelho/jest-viacep) — Função que busca endereço pelo CEP na API pública do ViaCEP, com 16 testes unitários e 100% de cobertura. O `fetch` é mockado com `jest.fn()`, então os testes rodam sem internet e simulam cenários difíceis de reproduzir de verdade (API fora do ar, falha de rede, resposta quebrada). Cobre também casos de borda de entrada (CEP com hífen, ponto, espaços, número, vazio, letras e dígitos a mais) e usa `test.each` para evitar repetição.
-- [`jest-api`](https://github.com/enzoacoelho/jest-api) — API REST de usuários com Express, testada com Jest e Supertest: 26 testes e cerca de 98% de cobertura. Valida regras de negócio (maioridade, email, usuário ativo e email único), status codes (201, 400, 404, 409, 204), JSON quebrado e o ciclo completo cadastro, listagem, busca e remoção. Cada teste começa com os dados limpos, e `app.js` fica separado de `server.js` para testar sem subir servidor.
+- [`jest-viacep`](https://github.com/enzoacoelho/jest-viacep) — Função que busca endereço pelo CEP na API pública do ViaCEP, com 16 testes unitários e 100% de cobertura. O `fetch` é mockado com `jest.fn()` para simular API fora do ar, falha de rede e resposta quebrada. Cobre também casos de borda de entrada (CEP com hífen, ponto, espaços, número, vazio, letras e dígitos a mais) e usa `test.each`.
+- [`jest-api`](https://github.com/enzoacoelho/jest-usuarios-api) — API REST de usuários com Express, testada com Jest e Supertest: 26 testes e cerca de 98% de cobertura. Valida regras de negócio (maioridade, email, usuário ativo e email único), status codes (201, 400, 404, 409, 204), JSON quebrado e o ciclo completo de cadastro, listagem, busca e remoção.
 
 ### 6. Testes de Performance
 - [`k6-tests`](https://github.com/enzoacoelho/k6-tests) — Scripts de carga com k6, com análise de latência, taxa de erro e throughput.
