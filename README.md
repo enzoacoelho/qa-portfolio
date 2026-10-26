@@ -63,6 +63,7 @@ Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 - [`appium-robot-yodapp`](https://github.com/enzoacoelho/appium-robot-yodapp) — Automação mobile com Robot Framework num app de gerenciamento de tarefas.
 
 ### 4. Automação de API
+- [`postman-serverest-usuarios`](https://github.com/enzoacoelho/postman-serverest-usuarios) — Suíte de testes de API no Postman para gerenciamento de usuários no ServeRest. Contém validações de regras de negócio, cenários negativos (e-mail duplicado, ID inexistente) e encadeamento dinâmico de IDs usando variáveis de coleção.
 - [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Sistema de biblioteca com permissões por perfil *(destaque acima)*
 - [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Encurtador de links, com testes de carga *(destaque acima)*
 
