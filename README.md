@@ -32,6 +32,7 @@ Uso essa bagagem para ler código com profundidade e dialogar de igual para igua
 | API | Cypress, Playwright |
 | Mobile | Appium, WebDriverIO, Robot Framework |
 | Performance | k6, Artillery |
+| Testes unitários | Jest, Supertest |
 | CI/CD & Containers | GitHub Actions, Docker |
 | Gestão de testes manuais | Jira Cloud, Zephyr Scale |
 
