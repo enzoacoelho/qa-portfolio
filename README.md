@@ -33,7 +33,7 @@ Uso essa bagagem para ler código com profundidade e dialogar de igual para igua
 | Categoria | Ferramentas |
 |---|---|
 | Web (E2E) | Cypress, Playwright |
-| API | Cypress, Playwright |
+| API | Cypress, Playwright, Postman |
 | Mobile | Appium, WebDriverIO, Robot Framework |
 | Performance | k6, Artillery |
 | Testes unitários | Jest, Supertest |
