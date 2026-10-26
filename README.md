@@ -69,7 +69,6 @@ Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 ### 4. Automação de API
 - [`postman-serverest-usuarios`](https://github.com/enzoacoelho/postman-serverest-usuarios) — Suíte de testes de API no Postman para gerenciamento de usuários no ServeRest. Contém validações de regras de negócio, cenários negativos (e-mail duplicado, ID inexistente) e encadeamento dinâmico de IDs usando variáveis de coleção.
 - [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Sistema de biblioteca com permissões por perfil *(destaque acima)*
-- [`pw-api-shortbeyond`](https://github.com/enzoacoelho/pw-api-shortbeyond) — Encurtador de links, com testes de carga *(destaque acima)*
 
 ### 5. Testes Unitários (Jest)
 - [`jest-viacep`](https://github.com/enzoacoelho/jest-viacep) — Função que busca endereço pelo CEP na API pública do ViaCEP, com 16 testes unitários e 100% de cobertura. O `fetch` é mockado com `jest.fn()` para simular API fora do ar, falha de rede e resposta quebrada. Cobre também casos de borda de entrada (CEP com hífen, ponto, espaços, número, vazio, letras e dígitos a mais) e usa `test.each`.
