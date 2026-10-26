@@ -9,7 +9,7 @@
 [![Zephyr Scale](https://img.shields.io/badge/Zephyr_Scale-Test_Management-F26522?logo=jira&logoColor=white)](https://github.com/enzoacoelho)
 [![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/enzoacoelho)
 
-💡 Ex-desenvolvedor migrando pra Qualidade de Software.
+💡 De desenvolvedor a QA: unindo visão de código com mentalidade analítica de testes.
 
 ## Sobre mim
 
