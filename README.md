@@ -32,11 +32,12 @@ Uso essa bagagem para ler código com profundidade e dialogar de igual para igua
 
 | Categoria | Ferramentas |
 |---|---|
-| Web (E2E) | Cypress, Playwright |
+| Web (E2E) | Cypress, Playwright, Selenium |
 | API | Cypress, Playwright, Postman |
 | Mobile | Appium, WebDriverIO, Robot Framework |
 | Performance | k6, Artillery |
 | Testes unitários | Jest, Supertest |
+| BDD | Gherkin |
 | CI/CD & Containers | GitHub Actions, Docker |
 | Gestão de testes manuais | Jira Cloud, Zephyr Scale |
 
