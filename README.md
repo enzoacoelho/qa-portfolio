@@ -62,6 +62,7 @@ Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 ### 2. Automação Web
 - [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — App de pagamentos entre usuários *(destaque acima)*
 - [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E com Playwright numa plataforma de streaming (login, leads, catálogo), com integração a PostgreSQL.
+- [`selenium-py-tool-shop`](https://github.com/enzoacoelho/selenium-py-toolshop) — Automação E2E com Selenium WebDriver, Python, Gherkin e Behave, utilizando Page Object Model (POM) para os fluxos de login e cadastro da aplicação Practice Software Testing.
 
 ### 3. Automação Mobile
 - [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium + WebDriverIO no app oficial de exemplo do WebdriverIO (puzzles/quiz).
