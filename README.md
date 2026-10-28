@@ -56,31 +56,31 @@ Projetos que melhor representam como eu penso estratégia de teste, não só exe
 Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 
 ### 1. Testes Manuais e Estratégias
-- [`qa-manual-toolshop`](https://github.com/enzoacoelho/qa-manual-toolshop) — Suíte de testes manuais, funcionais, exploratórios e cenários de borda (edge cases) para a aplicação web "Practice Software Testing - Tool Shop", estruturada com matriz de rastreabilidade, ciclos de execução e relatórios de defeitos (bugs).
-- [`qa-manual-agileway-travel`](https://github.com/enzoacoelho/qa-manual-agileway-travel) — Suíte de testes manuais, funcionais, exploratórios e cenários de borda (edge cases) para o ecossistema de reservas de viagens da AgileWay, gerenciada com planejamento de ciclos e reporte estruturado de falhas.
+- [`Teste Manual - Tool Shop`](https://github.com/enzoacoelho/qa-manual-toolshop) — Suíte de testes manuais, funcionais, exploratórios e cenários de borda (edge cases) para a aplicação web "Practice Software Testing - Tool Shop", estruturada com matriz de rastreabilidade, ciclos de execução e relatórios de defeitos (bugs).
+- [`Teste Manual - Agileway Travel`](https://github.com/enzoacoelho/qa-manual-agileway-travel) — Suíte de testes manuais, funcionais, exploratórios e cenários de borda (edge cases) para o ecossistema de reservas de viagens da AgileWay, gerenciada com planejamento de ciclos e reporte estruturado de falhas.
 
 ### 2. Automação Web
-- [`cy-realworld-app`](https://github.com/enzoacoelho/cy-realworldapp) — App de pagamentos entre usuários *(destaque acima)*
-- [`pw-streaming`](https://github.com/enzoacoelho/pw-streaming) — E2E com Playwright numa plataforma de streaming (login, leads, catálogo), com integração a PostgreSQL.
-- [`selenium-py-tool-shop`](https://github.com/enzoacoelho/selenium-py-toolshop) — Automação E2E com Selenium WebDriver, Python, Gherkin e Behave, utilizando Page Object Model (POM) para os fluxos de login e cadastro da aplicação Practice Software Testing.
+- [`Real World App - Cypress`](https://github.com/enzoacoelho/cy-realworldapp) — App de pagamentos entre usuários *(destaque acima)*
+- [`Zombie Plus Streaming - Playwright`](https://github.com/enzoacoelho/pw-streaming) — E2E com Playwright numa plataforma de streaming (login, leads, catálogo), com integração a PostgreSQL.
+- [`Tool Shop - Selenium`](https://github.com/enzoacoelho/selenium-py-toolshop) — Automação E2E com Selenium WebDriver, Python, Gherkin e Behave, utilizando Page Object Model (POM) para os fluxos de login e cadastro da aplicação Practice Software Testing.
 
 ### 3. Automação Mobile
-- [`appium-wdio`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium + WebDriverIO no app oficial de exemplo do WebdriverIO (puzzles/quiz).
-- [`appium-robot-yodapp`](https://github.com/enzoacoelho/appium-robot-yodapp) — Automação mobile com Robot Framework num app de gerenciamento de tarefas.
+- [`WDIO - Appium`](https://github.com/enzoacoelho/appium-wdio) — Automação Android com Appium + WebDriverIO no app oficial de exemplo do WebdriverIO (puzzles/quiz).
+- [`Yoda App - Appium + Robot Framework`](https://github.com/enzoacoelho/appium-robot-yodapp) — Automação mobile com Robot Framework num app de gerenciamento de tarefas.
 
 ### 4. Automação de API
-- [`postman-serverest-usuarios`](https://github.com/enzoacoelho/postman-serverest-usuarios) — Suíte de testes de API no Postman para gerenciamento de usuários no ServeRest. Contém validações de regras de negócio, cenários negativos (e-mail duplicado, ID inexistente) e encadeamento dinâmico de IDs usando variáveis de coleção.
-- [`cy-api-hub-de-leitura`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Sistema de biblioteca com permissões por perfil *(destaque acima)*
+- [`ServeRest - Postman`](https://github.com/enzoacoelho/postman-serverest-usuarios) — Suíte de testes de API no Postman para gerenciamento de usuários no ServeRest. Contém validações de regras de negócio, cenários negativos (e-mail duplicado, ID inexistente) e encadeamento dinâmico de IDs usando variáveis de coleção.
+- [`Hub de Leitura API - Cypress`](https://github.com/enzoacoelho/cy-api-hub-de-leitura) — Sistema de biblioteca com permissões por perfil *(destaque acima)*
 
 ### 5. Testes Unitários (Jest)
-- [`jest-viacep`](https://github.com/enzoacoelho/jest-viacep) — Função que busca endereço pelo CEP na API pública do ViaCEP, com 16 testes unitários e 100% de cobertura. O `fetch` é mockado com `jest.fn()` para simular API fora do ar, falha de rede e resposta quebrada. Cobre também casos de borda de entrada (CEP com hífen, ponto, espaços, número, vazio, letras e dígitos a mais) e usa `test.each`.
-- [`jest-api`](https://github.com/enzoacoelho/jest-usuarios-api) — API REST de usuários com Express, testada com Jest e Supertest: 26 testes e cerca de 98% de cobertura. Valida regras de negócio (maioridade, email, usuário ativo e email único), status codes (201, 400, 404, 409, 204), JSON quebrado e o ciclo completo de cadastro, listagem, busca e remoção.
+- [`ViaCEP - JEST`](https://github.com/enzoacoelho/jest-viacep) — Função que busca endereço pelo CEP na API pública do ViaCEP, com 16 testes unitários e 100% de cobertura. O `fetch` é mockado com `jest.fn()` para simular API fora do ar, falha de rede e resposta quebrada. Cobre também casos de borda de entrada (CEP com hífen, ponto, espaços, número, vazio, letras e dígitos a mais) e usa `test.each`.
+- [`API - JEST`](https://github.com/enzoacoelho/jest-usuarios-api) — API REST de usuários com Express, testada com Jest e Supertest: 26 testes e cerca de 98% de cobertura. Valida regras de negócio (maioridade, email, usuário ativo e email único), status codes (201, 400, 404, 409, 204), JSON quebrado e o ciclo completo de cadastro, listagem, busca e remoção.
 
 ### 6. Testes de Performance
-- [`k6-tests`](https://github.com/enzoacoelho/k6-tests) — Scripts de carga com k6, com análise de latência, taxa de erro e throughput.
+- [`K6`](https://github.com/enzoacoelho/k6-tests) — Scripts de carga com k6, com análise de latência, taxa de erro e throughput.
 
 ### 7. DevOps e Infraestrutura de Testes (CI/CD & Containers)
-- [`cy-interception-docker`](https://github.com/enzoacoelho/cy-interception-docker) — Testes Cypress headless em containers Docker, garantindo ambiente reprodutível.
+- [`Interception - Docker`](https://github.com/enzoacoelho/cy-interception-docker) — Testes Cypress headless em containers Docker, garantindo ambiente reprodutível.
 
 ## Boas práticas adotadas
 
