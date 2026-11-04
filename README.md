@@ -17,7 +17,7 @@
 
 ## Sobre mim
 
-4 anos como desenvolvedor, hoje em transição pra QA — trago bagagem técnica pra além da execução de testes.
+3 anos como desenvolvedor, hoje em transição pra QA — trago bagagem técnica pra além da execução de testes.
 
 Uso essa bagagem para ler código com profundidade e dialogar de igual para igual com times de dev. Aqui estão meus projetos práticos de testes manuais, automação e integração contínua.
 
