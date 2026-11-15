@@ -35,7 +35,7 @@ Uso essa bagagem para ler código com profundidade e dialogar de igual para igua
 | Web (E2E) | Cypress, Playwright, Selenium |
 | API | Cypress, Playwright, Postman |
 | Mobile | Appium, WebDriverIO, Robot Framework |
-| Performance | k6, Artillery |
+| Performance | k6, Apache JMeter, Artillery |
 | Testes unitários | Jest, Supertest |
 | BDD | Gherkin |
 | CI/CD & Containers | GitHub Actions, Docker |
@@ -77,7 +77,10 @@ Projetos desenvolvidos ao longo dos meus estudos, organizados por categoria.
 - [`API - JEST`](https://github.com/enzoacoelho/jest-usuarios-api) — API REST de usuários com Express, testada com Jest e Supertest: 26 testes e cerca de 98% de cobertura. Valida regras de negócio (maioridade, email, usuário ativo e email único), status codes (201, 400, 404, 409, 204), JSON quebrado e o ciclo completo de cadastro, listagem, busca e remoção.
 
 ### 6. Testes de Performance
-- [`K6`](https://github.com/enzoacoelho/k6-tests) — Scripts de carga com k6, com análise de latência, taxa de erro e throughput.
+
+- [`QuickPizza - k6`](https://github.com/enzoacoelho/K6-performance-quickpizza) — Testes de carga, stress e spike em API REST utilizando k6, com análise de latência, throughput, taxa de erro e geração de relatórios HTML.
+
+- [`BlazeDemo - Apache JMeter`](https://github.com/enzoacoelho/jmeter-blazedemo) — Teste de carga simulando 50 usuários virtuais executando o fluxo completo de busca e compra de passagens. Inclui parametrização de massa de dados via CSV, dashboards HTML, análise de throughput, tempo de resposta, percentis (p90, p95 e p99) e taxa de erro.
 
 ### 7. DevOps e Infraestrutura de Testes (CI/CD & Containers)
 - [`Interception - Docker`](https://github.com/enzoacoelho/cy-interception-docker) — Testes Cypress headless em containers Docker, garantindo ambiente reprodutível.
